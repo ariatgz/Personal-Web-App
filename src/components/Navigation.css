@@ -1,0 +1,16 @@
+#navbar-anime{
+    animation: 2s navLoading ease-out;
+}
+
+@keyframes navLoading {
+
+ 0%{
+
+     opacity: 0;
+ }
+    100%{
+        display: block;
+        opacity: 1;
+    }
+
+}
