@@ -11,12 +11,16 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .intro-text{
         width: 55%;line-height: 35px;
     text-wrap: normal;
 
+}
+li{
+    margin: 10px 0;
 }
 #profile-pic-setup{
     background-color: black;

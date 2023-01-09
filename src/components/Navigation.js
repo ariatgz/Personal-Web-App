@@ -26,7 +26,7 @@ function Navigation() {
                             </svg>
                         </NavLink>
                         <a className="nav-item nav-link text-light" >Projects</a>
-                        <a className="nav-item nav-link text-light" >Favorites</a>
+                        <NavLink to='/skills' className="nav-item nav-link text-light" >My Skills</NavLink>
                         <a className="nav-item nav-link text-light" >Resume</a>
                         <a className="nav-item nav-link text-light" >About</a>
                     </div>

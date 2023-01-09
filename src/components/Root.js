@@ -1,5 +1,6 @@
 import Navigation from "./Navigation";
 import {Fragment} from "react";
+import Footer from "./Footer";
 
 function Root(props) {
 
@@ -9,7 +10,7 @@ function Root(props) {
             <Navigation />
             {props.children}
 
-
+            <Footer />
         </Fragment>
     )
 
