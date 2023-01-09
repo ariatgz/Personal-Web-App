@@ -1,0 +1,52 @@
+.noPage-body{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    padding: 5%;
+}
+
+#crying-boy{
+
+    height:auto;
+    width: 35%;
+}
+.noPage-text{
+    height:  25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+@media screen and (max-width: 768px){
+    .noPage-body{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        height: 100%;
+    }
+
+    #crying-boy{
+
+        height: 25%;
+        width: auto;
+    }
+
+    .noPage-text{
+        height:  auto;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+
+}

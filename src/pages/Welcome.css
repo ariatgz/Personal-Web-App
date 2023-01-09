@@ -1,12 +1,15 @@
 
 .bg-image{
     position: absolute;
+    right: 0;
+    top: 0;
     z-index: -100;
     width: 100%;
-    height: 100vh;
-    filter: brightness(0.5);
+    height: 100%;
+    filter: brightness(0.45);
 
 }
+
 .Introduction{
     color: white;
     font-size: 5em;
@@ -19,8 +22,32 @@
 
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
+.desc{
+    font-size: 2.5rem;
+    color: white;
+}
+
+#react{
+    color: #61DBFB;
+}
+#react:hover{
+    color: white;
+}
+#android{
+    color: #a4c639;
+}
+
+#android:hover{
+    color: white;
+}
+
+.skill-for-hover:hover{
+    color: white;
+}
+
+
 @media screen and (max-width: 768px) {
     .Introduction{
         color: white;
@@ -28,27 +55,52 @@
         font-weight: bolder;
         align-self: center;
     }
+    .desc{
+        font-size: 1rem;
+        color: white;
+    }
     .intro-container{
         height: 100vh;
         display: flex;
 
         flex-direction: column;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;
     }
 
 
 }
 .name-anime{
     animation: 4s name ease-out ;
+    z-index: 9;
 }
 @keyframes name {
 
     0%{
 
-        transform: translateY(-100%) ;
+        transform: translateY(-50vh) ;
     }
 
 
+
+}
+
+.description-anime{
+    animation: 3s descLoading ease-in-out;
+
+    height: auto;
+    text-align: center;
+
+}
+@keyframes descLoading {
+
+    0%{
+
+        opacity: 0;
+    }
+    100%{
+
+        opacity: 1;
+    }
 
 }

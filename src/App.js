@@ -4,6 +4,7 @@ import './App.css';
 import Root from "./components/Root";
 import { Route, Routes} from "react-router-dom";
 import Welcome from "./pages/Welcome";
+import NoPageFound from "./pages/NoPageFound";
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
 
         <Routes>
             <Route path='/' element={<Welcome />}/>
-            <Route path='*' element={<p>Ooops! No Page</p>} />
+            <Route path='*' element={<NoPageFound />} />
 
         </Routes>
     </Root>

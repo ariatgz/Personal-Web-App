@@ -1,0 +1,86 @@
+.intro-outer-div{
+
+    background-color: white;
+    width: 100%;
+    height: auto;
+        border-radius: 15px;
+    text-wrap: normal;
+    margin-bottom: 5%;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro-text{
+        width: 55%;line-height: 35px;
+    text-wrap: normal;
+
+}
+#profile-pic-setup{
+    background-color: black;
+    width: 420px;
+    height:420px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+#profile-pic-setup:hover{
+    transform: rotate(-180deg);
+}
+
+#profile-pic{
+    width: 200px;
+    align-self: center;
+ }
+
+@media screen and (max-width: 768px){
+
+    .intro-outer-div{
+
+        width: 85vw;
+        background-color: white;
+
+        height: auto;
+        border-radius: 15px;
+        margin-bottom: 5%;
+            padding: 4%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .intro-text{
+        width: 100%;line-height: 35px;
+        text-wrap: normal;
+
+    }
+
+    #profile-pic-setup{
+        background-color: black;
+        width: 220px;
+        height:220px;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #profile-pic{
+        width: 120px;
+        align-self: center;
+    }
+
+
+}
+#text-about-me{
+    font-size: 1.4rem;
+
+}
