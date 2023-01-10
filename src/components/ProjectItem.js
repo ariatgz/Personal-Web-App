@@ -1,6 +1,6 @@
 import './ProjectItem.css';
-import picture from '../projImg/AriaBank.png'
-import {Link, NavLink} from "react-router-dom";
+
+import {Link} from "react-router-dom";
 
 function ProjectItem(props) {
 

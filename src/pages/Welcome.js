@@ -1,7 +1,8 @@
 import './Welcome.css'
 import {Fragment,} from "react";
 import Introduction from "../components/Introduction";
-import peter from '../images/Peter_Griffin.png'
+
+import {NavLink} from "react-router-dom";
 
 export function getWindowDimensions() {
     const { innerWidth: width} = window;
@@ -11,7 +12,7 @@ export function getWindowDimensions() {
 
 export const info={
 
-    image: peter,
+    image: require('../images/me.jpg'),
     title: "Hello, I'm Arya Taghizadeh.",
     description: "I'm an enthusiastic programmer, a web developer, a React developer, an Android developer, and an ethical hacker.\n" +
         "                    My passion for computers and programming was born at a young age. Since I was twelve years old,\n" +
@@ -38,12 +39,12 @@ function Welcome() {
                 <div className='description-anime'>
                     <p style={{fontFamily: "'Lato', sans-serif"}} className='desc'>I'm a <span id='react'>React</span>, <span  id='android'>Android</span> developer.</p>
                 </div>
-                <a href='#about-me'  className='btn btn-outline-light mt-5' >About Me</a>
+                <NavLink to='/about'  className='btn btn-outline-light mt-5' >About Me</NavLink>
 
 
 
             </div>
-            <Introduction image={info.image} title={info.title} description={info.description} ending={info.ending} />
+            <Introduction customStyle={{borderRadius: "70px",width: "200px",height: "auto"}} image={info.image} title={info.title} description={info.description} ending={info.ending} />
 
 
 

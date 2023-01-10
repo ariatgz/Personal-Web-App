@@ -13,6 +13,9 @@
     justify-content: space-between;
 
 }
+#ending{
+    margin: 10px 0;
+}
 
 .intro-text{
         width: 55%;line-height: 35px;
@@ -39,7 +42,7 @@ li{
 }
 
 #profile-pic{
-    width: 200px;
+    width: 250px;
     align-self: center;
  }
 

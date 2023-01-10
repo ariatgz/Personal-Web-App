@@ -3,6 +3,7 @@ import {useParams} from "react-router-dom";
 
 import {useSelector} from "react-redux";
 import DetailDescription from "../components/DetailDescription";
+import NoPageFound from "./NoPageFound";
 
 
 function DetailedProject(props) {
@@ -15,6 +16,12 @@ function DetailedProject(props) {
 
 
     let project= projs.filter(pro=> pro.id === params.projId)[0];
+
+    if(!project || project.length === 0 ){
+        return (
+            <NoPageFound />
+        )
+    }
 
 
 
