@@ -6,7 +6,9 @@
 
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
-    background-color: #bebcbc;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    background-color: #ffffff;
     margin-right: 2%;
     margin-left: 2%;
     margin-top: 15%;
@@ -38,7 +40,7 @@
         border-top-left-radius: 35px;
         border-top-right-radius: 35px;
         background-color: white;
-        padding: 2%;
+        padding: 1%;
         margin-right: 5%;
         margin-left: 5%;
         margin-top: 10%;
@@ -47,6 +49,16 @@
         justify-content: space-between;
         align-items: center;
 
+    }
+    #thank{
+        margin-top: 3%;
+        margin-bottom: 3%;
+        display: flex;
+        text-align: center;
+        font-size: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
     }
 
 

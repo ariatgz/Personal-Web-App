@@ -23,15 +23,15 @@ function Projects() {
 
     return(
         <Fragment>
-            { getWindowDimensions() > 1023 ? <img alt='space' className='bg-image' src={require('../images/1773005.jpg')}/> : <img  alt='space' className='bg-image' src={require('../images/sm-proj-bg.jpg')}/>}
+            { getWindowDimensions() > 1023 ? <img alt='space' className='bg-image' src={require('../images/1773005.jpg')}/> : <img  alt='space' className='bg-image' src={require('../images/1268196.jpg')}/>}
         <div className='layout-grid'>
             <div className='layout-wrapper'>
 
                 {
                     projects.map(proj=>{
-                        return (<div>
+                        return (
                             <ProjectItem key={proj.id} id={proj.id} name={proj.name} image={proj.image} />
-                        </div>);
+                        );
                     })
                 }
 

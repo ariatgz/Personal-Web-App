@@ -28,7 +28,7 @@ function Navigation() {
                         <NavLink to="/projects" className="nav-item nav-link text-light" ><h3>Projects</h3></NavLink>
                         <NavLink to='/skills' className="nav-item nav-link text-light" ><h3>My Skills</h3></NavLink>
                         <a className="nav-item nav-link text-light" ><h3>Resume</h3></a>
-                        <a className="nav-item nav-link text-light" ><h3>About</h3></a>
+                        <NavLink to='/about' className="nav-item nav-link text-light" ><h3>About</h3></NavLink>
                     </div>
                 </div>
             </div>

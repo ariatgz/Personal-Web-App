@@ -1,0 +1,46 @@
+#detail-description{
+
+
+    background-color: white;
+    width: 80%;
+    color: black;
+    font-size: 2em;
+    height: auto;
+    border-radius: 15px;
+    text-wrap: normal;
+    margin-bottom: 5%;
+    padding: 2%;
+        margin-top: 5%;
+
+
+
+}
+
+#centerer{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1023px){
+    #detail-description{
+
+
+        background-color: white;
+        width: 80%;
+        color: black;
+        font-size: 1.2em;
+        height: auto;
+        border-radius: 15px;
+        text-wrap: normal;
+        margin-bottom: 5%;
+        padding: 3%;
+        margin-top: 10%;
+
+
+
+    }
+
+}

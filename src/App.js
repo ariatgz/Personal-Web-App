@@ -8,6 +8,7 @@ import NoPageFound from "./pages/NoPageFound";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import DetailedProject from "./pages/DetailedProject";
+import About from "./pages/About";
 
 
 function App() {
@@ -21,10 +22,9 @@ function App() {
         <Routes>
             <Route path='/' element={<Welcome />}/>
             <Route path='/skills' element={<Skills />} />
-            <Route path='/projects' element={<Projects />} />
-            <Route path="/projects/:projId" element={<DetailedProject />} />
-
-
+            <Route path='projects' element={<Projects />} />
+            <Route path="projects/:projId" element={<DetailedProject />} />
+            <Route path="about" element={<About />} />
             <Route path='*' element={<NoPageFound />} />
 
         </Routes>

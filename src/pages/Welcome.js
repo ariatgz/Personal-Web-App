@@ -3,13 +3,13 @@ import {Fragment,} from "react";
 import Introduction from "../components/Introduction";
 import peter from '../images/Peter_Griffin.png'
 
-function getWindowDimensions() {
+export function getWindowDimensions() {
     const { innerWidth: width} = window;
     return width;
 
 }
 
-const info={
+export const info={
 
     image: peter,
     title: "Hello, I'm Arya Taghizadeh.",

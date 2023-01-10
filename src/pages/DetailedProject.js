@@ -1,7 +1,8 @@
 import './DetailedProject.css'
 import {useParams} from "react-router-dom";
-import {useEffect} from "react";
+
 import {useSelector} from "react-redux";
+import DetailDescription from "../components/DetailDescription";
 
 
 function DetailedProject(props) {
@@ -19,8 +20,28 @@ function DetailedProject(props) {
 
 
     return(
-        <div>
-            <p className='text-light'>{project.name}</p>
+        <div id='detail-body-project'>
+            <div className='top-detail'>
+                <img className="detail-proj-img" src={require(`../projImg/${project.image}` )} />
+                <div id="right-detail">
+                <h4 id='proj-detail-name' >{project.name}</h4>
+                <div id='used-technology'>
+                    <p id='proj-detail-technologies'>Technologies used:</p>
+                    <div id='technology-list'>
+                        {project.technologies}
+                    </div>
+
+                </div>
+                </div>
+
+            </div>
+
+            <DetailDescription content={project.description} />
+
+
+
+
+
         </div>
     )
 

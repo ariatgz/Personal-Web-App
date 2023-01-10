@@ -9,11 +9,20 @@ export const projectsSlice = createSlice({
 
                 id: "proj1",
                 image: 'AriaBank.png' ,
-                name: "Bank App" ,
+                name: "Android Banking App" ,
                 description: "this App is powered with the Android best Graphing library , AndroidMp chart, and many background and advanced features. " ,
                 shortDesc: "This is a clone of a general bank App."  ,
                 gitLink: "None" ,
-                technologies: "Java, XML, AndroidMp, Retrofit2, SQLite, Room database, Work Managers"
+                technologies: (
+                    <ul>
+                        <li>Java</li>
+                        <li>AndroidMP</li>
+                        <li>Retrofit2</li>
+                        <li>SQLite</li>
+                        <li>Room database</li>
+                        <li>Work Managers</li>
+                    </ul>
+                )
             },
             {
                 id:"proj2",
@@ -22,7 +31,14 @@ export const projectsSlice = createSlice({
                 description: "This app manually parses your HTML code using Vanilla Javascript. Just like Your browser!!" ,
                 shortDesc: "This app manually parses your HTML code using Vanilla Javascript."  ,
                 gitLink: "None" ,
-                technologies: "Java Script, The DOM, HTML, CSS"
+                technologies: (
+                    <ul>
+                        <li>Java Script</li>
+                        <li>The DOM</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                )
             },{
                 id:"proj3",
                 image: "AppGym.png" ,
@@ -30,7 +46,15 @@ export const projectsSlice = createSlice({
                 description: "You can create fitness program using this app." ,
                 shortDesc: "This app has a basic data base and a couple of pages"  ,
                 gitLink: "None" ,
-                technologies: "Java, XML, SQLite, Room database, Work Managers"
+                technologies: (
+                    <ul>
+                        <li>Java</li>
+                        <li>Retrofit2</li>
+                        <li>SQLite</li>
+                        <li>Room database</li>
+                        <li>Work Managers</li>
+                    </ul>
+                )
             },{
                 id:"proj4",
                 image: "AriaGrocery.png" ,
@@ -38,7 +62,16 @@ export const projectsSlice = createSlice({
                 description: "This app is clone of a grocery store app." ,
                 shortDesc: "This app is clone of a grocery store app."  ,
                 gitLink: "None" ,
-                technologies: "Java, XML, AndroidMp, Retrofit2, SQLite, Room database, Work Managers"
+                technologies:(
+                    <ul>
+                        <li>Java</li>
+                        <li>AndroidMP</li>
+                        <li>Retrofit2</li>
+                        <li>SQLite</li>
+                        <li>Room database</li>
+                        <li>Work Managers</li>
+                    </ul>
+                )
             },{
                 id:"proj5",
                 image: "RestaurantApp.png" ,
@@ -46,7 +79,33 @@ export const projectsSlice = createSlice({
                 description: "This app is like a website for a restaurant." ,
                 shortDesc: "You can order food using this app"  ,
                 gitLink: "None" ,
-                technologies: "React, Redux,React Router, JavaScript, Html, Css"
+                technologies: (
+                    <ul>
+                        <li>React</li>
+                        <li>Redux</li>
+                        <li>React Router</li>
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                )
+            },{
+                id:"proj6",
+                image: "webApp.png" ,
+                name: "Portfolio Website" ,
+                description: "This website was one of my favourite projects" ,
+                shortDesc: "You can order food using this app"  ,
+                gitLink: "None" ,
+                technologies: (
+                    <ul>
+                        <li>React</li>
+                        <li>Redux</li>
+                        <li>React Router</li>
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                )
             },
 
 
