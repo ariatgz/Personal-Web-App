@@ -10,9 +10,9 @@
 
 }
 
-.Introduction{
+.introduction{
     color: white;
-    font-size: 5em;
+    font-size: 10em;
     font-weight: bolder;
     align-self: center;
 }
@@ -23,12 +23,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-bottom: 10px solid white;
+
 
 }
 
 .desc{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     color: white;
 }
 
@@ -62,14 +62,14 @@
         filter: brightness(0.45);
 
     }
-    .Introduction{
+    .introduction{
         color: white;
         font-size: 2.5em;
         font-weight: bolder;
         align-self: center;
     }
     .desc{
-        font-size: 1rem;
+        font-size: 1.4rem;
         color: white;
     }
     .intro-container{

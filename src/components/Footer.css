@@ -2,15 +2,17 @@
 
 
 
-    height: 400px;
+    height:auto;
 
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
-    background-color: white;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-top: 10%;
+    background-color: #bebcbc;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 15%;
+
     display: flex;
+
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -18,6 +20,7 @@
 }
 
 #thank{
+
     display: flex;
     text-align: center;
     font-size: 1.2rem;
