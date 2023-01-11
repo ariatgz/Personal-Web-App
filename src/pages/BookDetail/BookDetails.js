@@ -12,11 +12,11 @@ function BookDetails() {
 
 
     const books = useSelector(state=>state.project.books);
-    console.log(books)
+
 
 
     let list= books.filter(pro=> pro.id === params.bookId)[0];
-    console.log(list)
+
 
     if(!list || list.length === 0 ){
         return (
@@ -27,7 +27,7 @@ function BookDetails() {
     return(
         <div id='detail-body-book'>
 
-                <img className="detail-book-img" loading="lazy" src={list.image} />
+                <img alt="book's image" className="detail-book-img" loading="lazy" src={list.image} />
             <h3 className="author">{list.title}</h3>
                <h3 className="author">{list.Author}</h3>
 

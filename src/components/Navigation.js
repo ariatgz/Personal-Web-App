@@ -13,7 +13,7 @@ function Navigation() {
                 </button>
 
                 <div className="collapse navbar-collapse mt-3 mt-xl-0" id="navbarText">
-                    <a className="navbar-brand " target="_blank" href="https://github.com/ariatgz">Arya Taghizadeh
+                    <a className="navbar-brand " rel='noreferrer' target="_blank" href="https://github.com/ariatgz">Arya Taghizadeh
                          </a>
 
 

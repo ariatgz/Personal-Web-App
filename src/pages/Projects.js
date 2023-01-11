@@ -3,15 +3,7 @@ import {Fragment} from "react";
 import ProjectItem from "../components/ProjectItem";
 import {useSelector} from "react-redux";
 import React from "react";
-
-
-
-
-function getWindowDimensions() {
-    const { innerWidth: width} = window;
-    return width;
-
-}
+import {getWindowDimensions} from "./Welcome";
 
 
 function Projects() {
