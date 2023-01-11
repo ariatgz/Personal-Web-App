@@ -8,7 +8,7 @@ function Introduction(props) {
         <div id='about-me' className='intro-outer-div container mt-5'>
             <div id='profile-pic-setup'>
 
-                <img alt="" style={props.customStyle} id='profile-pic' src={props.image}/>
+                <img alt=" " style={props.customStyle} id='profile-pic' src={props.image}/>
 
             </div>
             <div className='mt-4 intro-text'>

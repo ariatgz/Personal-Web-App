@@ -1,5 +1,5 @@
 import Introduction from "../components/Introduction";
-import {getWindowDimensions, info} from "./Welcome";
+import { info} from "./Welcome";
 import './About.css'
 import React from "react";
 

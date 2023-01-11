@@ -4,7 +4,7 @@ import Introduction from "../components/Introduction";
 import python from '../images/python-5-logo-png-transparent.png';
 import java from  '../images/java-logo-1.png';
 import web from '../images/pngfind.com-web-designing-icon-png-1706361.png'
-import {getWindowDimensions} from "./Welcome";
+
 import React from "react";
 
 const skills=[

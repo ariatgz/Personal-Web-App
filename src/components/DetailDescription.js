@@ -1,5 +1,5 @@
 import './DetailDescription.css'
-import {getWindowDimensions} from "../pages/Welcome";
+
 
 function DetailDescription(props) {
 

@@ -27,7 +27,7 @@ function Navigation() {
                         <NavLink style={ ({isActive})=> isActive? { textDecorationLine: "underline"  }: {color: "white"} } to="/projects" className="nav-item nav-link " ><h3>Projects</h3></NavLink>
                         <NavLink style={ ({isActive})=> isActive? { textDecorationLine: "underline"  }: {color: "white"} } to='/skills' className="nav-item nav-link text-light" ><h3>My Skills</h3></NavLink>
                         <NavLink style={ ({isActive})=> isActive? { textDecorationLine: "underline"  }: {color: "white"} } to='/myLibrary' className="nav-item nav-link text-light" ><h3>My Library</h3></NavLink>
-                        <a className="nav-item nav-link text-light" ><h3>Resume</h3></a>
+                        {/**<a className="nav-item nav-link text-light" ><h3>Resume</h3></a>**/}
                         <NavLink style={ ({isActive})=> isActive? { textDecorationLine: "underline"  }: {color: "white"} } to='/about' className="nav-item nav-link text-light" ><h3>About</h3></NavLink>
 
                     </div>
