@@ -30,7 +30,7 @@ function DetailedProject(props) {
     return(
         <div id='detail-body-project'>
             <div className='top-detail'>
-                <img className="detail-proj-img" src={require(`../projImg/${project.image}` )} />
+                <img className="detail-proj-img" alt="project Picture" loading="lazy" src={require(`../projImg/${project.image}` )} />
                 <div id="right-detail">
                 <h4 id='proj-detail-name' >{project.name}</h4>
                 <div id='used-technology'>

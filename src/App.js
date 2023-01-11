@@ -1,6 +1,6 @@
 
 import './App.css';
-import React from "react";
+import React, {Suspense} from "react";
 import Root from "./components/Root";
 import { Route, Routes} from "react-router-dom";
 import Welcome from "./pages/Welcome";
@@ -9,13 +9,16 @@ import Skills from "./pages/Skills";
 
 import DetailedProject from "./pages/DetailedProject";
 import About from "./pages/About";
-import Projects from "./pages/Projects";
-import Library from "./pages/Library";
-import BookItem from "./components/BookItem";
+
+
+
 import BookDetails from "./pages/BookDetail/BookDetails";
+import LoadingSpinner from "./components/spinner/LoadingSpinner";
 
 
 
+const Library = React.lazy(()=> import("./pages/Library"));
+const Projects = React.lazy(()=> import("./pages/Projects"));
 
 
 function App() {
@@ -28,7 +31,7 @@ function App() {
 
 
 
-
+        <Suspense fallback={<LoadingSpinner />}>
         <Routes>
             <Route path='/' element={<Welcome />}/>
             <Route path='/skills' element={<Skills />} />
@@ -40,6 +43,7 @@ function App() {
             <Route path='*' element={<NoPageFound />} />
 
         </Routes>
+        </Suspense>
 
 
     </Root>

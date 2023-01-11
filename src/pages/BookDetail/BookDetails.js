@@ -27,7 +27,7 @@ function BookDetails() {
     return(
         <div id='detail-body-book'>
 
-                <img className="detail-book-img" src={list.image} />
+                <img className="detail-book-img" loading="lazy" src={list.image} />
             <h3 className="author">{list.title}</h3>
                <h3 className="author">{list.Author}</h3>
 

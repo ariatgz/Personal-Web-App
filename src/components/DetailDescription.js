@@ -7,7 +7,7 @@ function DetailDescription(props) {
     return (
 
         <div id='centerer'>
-            { getWindowDimensions() > 1023 ? <img alt='space'  className='bg-image' src={require('../images/1773005.jpg')}/> : <img  alt='space' className='bg-image' src={require('../images/stats-vert.jpg')}/>}
+            { getWindowDimensions() > 1023 ? <img alt='space'  className='bg-image' src={require('../images/1773005.jpg')}/> : <img  alt='space' className='bg-image' src={require('../images/1268196.jpg')}/>}
 
 
             <div id='detail-description'>
