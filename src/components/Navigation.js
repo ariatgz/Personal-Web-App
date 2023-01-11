@@ -4,7 +4,7 @@ function Navigation() {
 
 
     return(
-        <nav className="navbar bg-transparent  navbar-expand-xl  navbar-dark mt-1" id='navbar-anime'>
+        <nav className="navbar  navbar-expand-xl  navbar-dark mt-1 myNav" id='navbar-anime'>
             <div className="px-xl-5 px-3">
 
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -27,8 +27,10 @@ function Navigation() {
                         </NavLink>
                         <NavLink to="/projects" className="nav-item nav-link text-light" ><h3>Projects</h3></NavLink>
                         <NavLink to='/skills' className="nav-item nav-link text-light" ><h3>My Skills</h3></NavLink>
+                        <NavLink to='/myLibrary' className="nav-item nav-link text-light" ><h3>My Library</h3></NavLink>
                         <a className="nav-item nav-link text-light" ><h3>Resume</h3></a>
                         <NavLink to='/about' className="nav-item nav-link text-light" ><h3>About</h3></NavLink>
+
                     </div>
                 </div>
             </div>

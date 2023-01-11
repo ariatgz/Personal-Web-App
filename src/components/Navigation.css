@@ -3,6 +3,13 @@
     z-index: 999;
 }
 
+.myNav{
+
+    background-color: transparent;
+    backdrop-filter: brightness(0.7);
+
+}
+
 @keyframes navLoading {
 
  0%{

@@ -4,6 +4,7 @@ import {useParams} from "react-router-dom";
 import {useSelector} from "react-redux";
 import DetailDescription from "../components/DetailDescription";
 import NoPageFound from "./NoPageFound";
+import React from "react";
 
 
 function DetailedProject(props) {
@@ -44,6 +45,12 @@ function DetailedProject(props) {
             </div>
 
             <DetailDescription content={project.description} />
+
+            <a style={{alignSelf: "center",textAlign: "center"}} target="_blank" href={project.gitLink}>
+                <img style={{width: "50%"}}  src={require("../images/GitHub_Logo_White.png")} />
+            </a>
+
+
 
 
 

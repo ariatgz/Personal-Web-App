@@ -1,0 +1,52 @@
+#book-layout{
+    margin-bottom: 15%;
+    height: auto;
+}
+
+#book-grid{
+
+    max-width: 100%;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+
+        gap: 5%;
+
+
+
+
+    margin-top: 5%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+#fave-book-text{
+    color: white;
+    text-align: center;
+    margin: 5%;
+    font-size: 4rem;
+}
+@media screen and (max-width: 1023px){
+
+    #book-grid{
+
+        max-width: 100%;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+    #book-layout{
+        margin-bottom: 15%;
+    }
+    #fave-book-text{
+        color: white;
+        text-align: center;
+        margin: 15%;
+        font-size: 1.5rem;
+    }
+
+}

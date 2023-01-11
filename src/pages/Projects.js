@@ -2,6 +2,7 @@ import './Projects.css'
 import {Fragment} from "react";
 import ProjectItem from "../components/ProjectItem";
 import {useSelector} from "react-redux";
+import React from "react";
 
 
 
@@ -49,4 +50,4 @@ function Projects() {
 
 }
 
-export default Projects;
+export default React.memo(Projects);

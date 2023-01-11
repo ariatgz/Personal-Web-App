@@ -32,7 +32,7 @@ function Footer() {
                 <div >
 
 
-                <img onClick={scrollToTop} width="100px" src={require('../images/up-arrow-button-icon.png')} />
+                <img onClick={scrollToTop} width="100px" src={require('../images/kisspng-chopsticks-tableware-clip-art-up-arrow-png-transparent-image-5a759b4be01077.3079923215176569079178 (1).png')} />
                 </div>
 
 

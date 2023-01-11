@@ -1,7 +1,7 @@
 import './Welcome.css'
 import {Fragment,} from "react";
 import Introduction from "../components/Introduction";
-
+import React from "react";
 import {NavLink} from "react-router-dom";
 
 export function getWindowDimensions() {
@@ -44,7 +44,7 @@ function Welcome() {
 
 
             </div>
-            <Introduction customStyle={{borderRadius: "70px",width: "200px",height: "auto"}} image={info.image} title={info.title} description={info.description} ending={info.ending} />
+            <Introduction customStyle={{borderRadius: "70px",width: "55%",height: "auto"}} image={info.image} title={info.title} description={info.description} ending={info.ending} />
 
 
 
@@ -54,4 +54,4 @@ function Welcome() {
 
 }
 
-export default Welcome;
+export default React.memo(Welcome);

@@ -1,0 +1,43 @@
+
+.book-img{
+    width: 50%;
+    margin-bottom: 5%;
+}
+#bookout{
+
+    padding: 20px ;
+    text-align: center;
+    max-width: 1000px;
+    border: 5px white solid;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    backdrop-filter: brightness(0.2);
+}
+
+@media screen and (max-width: 1023px){
+    .book-img{
+        width: 95%;
+        margin-bottom: 15%;
+    }
+    #bookout{
+
+        padding: 10px ;
+        text-align: center;
+        width: 75%;
+        align-self: center;
+        border: 5px white solid;
+        color: white;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        backdrop-filter: brightness(0.2);
+        margin: 4% 0;
+
+    }
+
+}
