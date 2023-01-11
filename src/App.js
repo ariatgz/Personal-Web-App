@@ -10,13 +10,13 @@ import DetailedProject from "./pages/DetailedProject";
 
 import BookDetails from "./pages/BookDetail/BookDetails";
 import LoadingSpinner from "./components/spinner/LoadingSpinner";
-
+import Projects from "./pages/Projects";
 
 
 
 const Library = React.lazy(()=> import("./pages/Library"));
 
-const Projects = React.lazy(()=> import("./pages/Projects"));
+
 
 const Skills = React.lazy(()=> import("./pages/Skills"));
 
