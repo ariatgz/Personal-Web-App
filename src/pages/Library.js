@@ -2,7 +2,7 @@ import {useSelector} from "react-redux";
 
 import BookItem from "../components/BookItem";
 import './Library.css'
-import {getWindowDimensions} from "./Welcome";
+
 import React, {Fragment} from "react";
 
 function Library(){
@@ -10,12 +10,15 @@ function Library(){
    const books = useSelector(state=>state.project.books);
 
 
+        const bookList =   books.map((book)=>{
 
+            return <BookItem key={book.id} id={book.id} title={book.title} image={book.image} />
+        })
 
     return (
 
         <Fragment>
-            { getWindowDimensions() > 1023 ? <img alt='space' className='bg-image' src={require('../images/1773005.jpg')}/> : <img  alt='space' className='bg-image' src={require('../images/1268196.jpg')}/>}
+            { window.innerWidth > 1023 ? <img alt='space' className='bg-image' src={require('../images/1773005.jpg')}/> : <img  alt='space' className='bg-image' src={require('../images/1268196.jpg')}/>}
 
 
 
@@ -29,10 +32,7 @@ function Library(){
 
             {
 
-                books.map((book)=>{
-
-                    return <BookItem key={book.id} id={book.id} title={book.title} image={book.image} />
-                })
+              bookList
 
 
             }

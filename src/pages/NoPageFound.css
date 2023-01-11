@@ -21,7 +21,7 @@
     justify-content: center;
 
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1023px){
     .noPage-body{
         color: white;
         display: flex;
@@ -32,18 +32,20 @@
     }
 
     #crying-boy{
-
-        height: 25%;
-        width: auto;
+        align-self: center;
+        height: auto;
+        width: 70%;
     }
 
     .noPage-text{
         height:  auto;
-        margin-top: 2%;
+        margin-top: 6%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        text-align: center;
+
 
     }
 

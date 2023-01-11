@@ -6,9 +6,10 @@
 .myNav{
 
     background-color: transparent;
-    backdrop-filter: brightness(0.7);
+    backdrop-filter: brightness(0.8);
 
 }
+
 
 @keyframes navLoading {
 

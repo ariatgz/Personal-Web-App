@@ -17,6 +17,12 @@
     align-items: center;
 
 }
+#up-arrow:hover{
+
+    border: 3px black solid;
+    border-radius: 8px;
+
+}
 
 #thank{
 

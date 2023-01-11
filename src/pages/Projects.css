@@ -30,3 +30,15 @@
 
 
 }
+
+.fade-enter{
+    opacity: 0;
+}
+.fade-enter-active{
+    opacity: 1;
+    transition: opacity 0.35s ease-out ;
+}
+
+.fade-enter{
+    opacity: 1;
+}

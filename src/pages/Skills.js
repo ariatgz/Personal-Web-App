@@ -111,7 +111,7 @@ function Skills() {
 
         <div>
 
-            {getWindowDimensions() > 1023 ? <img alt='space' className='bg-image' src={require('../images/dark-code.jpg')}/> : <img alt='space' className='bg-image' src={require('../images/mobile-dark-code.jpg')}/>}
+            {window.innerWidth > 1023 ? <img alt='space' className='bg-image' src={require('../images/dark-code.jpg')}/> : <img alt='space' className='bg-image' src={require('../images/mobile-dark-code.jpg')}/>}
             {
                 skills.map((item)=>{
                     return <Introduction image={item.image} description={item.description} ending={item.ending} title={item.title} />

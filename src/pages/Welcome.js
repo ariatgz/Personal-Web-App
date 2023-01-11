@@ -2,13 +2,9 @@ import './Welcome.css'
 import {Fragment,} from "react";
 import Introduction from "../components/Introduction";
 import React from "react";
-import {NavLink} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 
-export function getWindowDimensions() {
-    const { innerWidth: width} = window;
-    return width;
 
-}
 
 export const info={
 
@@ -31,7 +27,7 @@ function Welcome() {
     return(
         <Fragment>
             <div id='whole-body'>
-            { getWindowDimensions() > 1023 ? <img alt='space' className='bg-image' src={require('../images/1773005.jpg')}/> : <img  alt='space' className='bg-image' src={require('../images/1268196.jpg')}/>}
+            { window.innerWidth > 1023 ? <img alt='space' className='bg-image' src={require('../images/1773005.jpg')}/> : <img  alt='space' className='bg-image' src={require('../images/1268196.jpg')}/>}
             <div className='intro-container'>
                 <div className='name-anime'>
                     <h1 style={{fontFamily: "'Poppins', sans-serif"}} className='introduction '>Hi, I'm <strong id='my-name'>Arya</strong>. </h1>
@@ -39,7 +35,20 @@ function Welcome() {
                 <div className='description-anime'>
                     <p style={{fontFamily: "'Lato', sans-serif"}} className='desc'>I'm a <span id='react'>React</span>, <span  id='android'>Android</span> developer.</p>
                 </div>
-                <NavLink to='/about'  className='btn btn-outline-light mt-5' >About Me</NavLink>
+
+
+
+
+                <button className="about-me">
+                    <Link to='/projects'>
+           <span className="circle" aria-hidden="true">
+         <span className="icon arrow"></span>
+         </span>
+                    <span className="button-text">My Projects</span>
+                    </Link>
+                </button>
+
+
 
 
 

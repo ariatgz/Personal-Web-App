@@ -1,5 +1,15 @@
 import {createSlice} from '@reduxjs/toolkit';
 
+import AriaBank from '../projImg/AriaBank.png'
+import HTMLParse from '../projImg/HTMLParser.png'
+import AppGym from '../projImg/AppGym.png'
+import grocery from '../projImg/AriaGrocery.png'
+import resta from '../projImg/RestaurantApp.png'
+import webapp from '../projImg/webApp.png'
+import backdoor from '../projImg/backdoor.png'
+import intToEng from '../projImg/intToEnglish.png'
+import numberSystem from '../projImg/numberConverter.png'
+
 
 export const projectsSlice = createSlice({
     name: 'Projects',
@@ -8,7 +18,7 @@ export const projectsSlice = createSlice({
             {
 
                 id: "proj1",
-                image: 'AriaBank.png' ,
+                image: AriaBank ,
                 name: "Android Banking App" ,
                 description: "This App is armed with Android best's Graphing library , AndroidMp chart. This app has a basic sign in/up page and a SQLite" +
                     "database which is build using the Room database wrapper. You can add your loans and investments to your account and it will automatically change the balance of your account each month." +
@@ -28,7 +38,7 @@ export const projectsSlice = createSlice({
             },
             {
                 id:"proj2",
-                image: "HTMLParser.png" ,
+                image: HTMLParse ,
                 name: "HTML Parse" ,
                 description: "This app manually parses your HTML code using Vanilla Javascript. This app can beautify your HTML code just like a code editor, and parse it just like Your browser!!" ,
                 shortDesc: "This app manually parses your HTML code using Vanilla Javascript."  ,
@@ -43,7 +53,7 @@ export const projectsSlice = createSlice({
                 )
             },{
                 id:"proj3",
-                image: "AppGym.png" ,
+                image: AppGym ,
                 name: "Gym Management App" ,
                 description: "This app is armed with a small database of different exercises which you can use to build you own custom work-out plan. This is one of my first Android projects, therefore is not anything complicated " +
                     "or special." ,
@@ -60,7 +70,7 @@ export const projectsSlice = createSlice({
                 )
             },{
                 id:"proj4",
-                image: "AriaGrocery.png" ,
+                image: grocery ,
                 name: "Grocery shop App" ,
                 description: "This project was one of my favourites. It's a grocery store app in which you can add items to your cart, purchase them, remove them, or search for them. This app is armed with retrofit2 " +
                     "library which posts data to a simple dummy RESTApi. This app is very detailed and realistic in terms of its functionality and UI." ,
@@ -78,7 +88,7 @@ export const projectsSlice = createSlice({
                 )
             },{
                 id:"proj5",
-                image: "RestaurantApp.png" ,
+                image: resta ,
                 name: "Restaurant Web App" ,
                 description: "This web app was one of my first React projects. This is a simple website in which you can add foods to your cart and, then purchase them from your cart. Nothing Fancy !! " ,
                 shortDesc: "You can order food using this app"  ,
@@ -95,7 +105,7 @@ export const projectsSlice = createSlice({
                 )
             },{
                 id:"proj6",
-                image: "webApp.png" ,
+                image: webapp ,
                 name: "Portfolio Website" ,
                 description: "This website was the most exciting and fun project that I have ever done. Instead of me trying to explaining it, why don't you go ahead and try it yourself?  " ,
                 shortDesc: "You can order food using this app"  ,
@@ -112,7 +122,7 @@ export const projectsSlice = createSlice({
                 )
             },{
                 id:"proj7",
-                image: "backdoor.png" ,
+                image: backdoor ,
                 name: "Backdoor Shell" ,
                 description: "This script is for a simple server and its reverse-Shell. You can use this program to execute code on a remote computer, a.k.a A Backdoor Shell" ,
                 shortDesc: "You can order food using this app"  ,
@@ -127,7 +137,7 @@ export const projectsSlice = createSlice({
                 )
             },{
                 id:"proj8",
-                image: "intToEnglish.png" ,
+                image: intToEng ,
                 name: "Integer to English Converter" ,
                 description: "This program takes a positive integer and write it down in English. This program was a LeetCode website challenge which I did for my school. " ,
                 shortDesc: "You can order food using this app"  ,
@@ -140,7 +150,7 @@ export const projectsSlice = createSlice({
                 )
             },{
                 id:"proj9",
-                image: "numberConverter.png" ,
+                image: numberSystem ,
                 name: "Number System Converter" ,
                 description: "This java app which has a simple UI, takes a number (in any numbering system),and gives you back that number in other numbering systems. The UI is build using Java Swing Library.  " ,
                 shortDesc: "You can order food using this app"  ,

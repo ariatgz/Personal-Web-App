@@ -5,20 +5,22 @@ import Root from "./components/Root";
 import { Route, Routes} from "react-router-dom";
 import Welcome from "./pages/Welcome";
 import NoPageFound from "./pages/NoPageFound";
-import Skills from "./pages/Skills";
 
 import DetailedProject from "./pages/DetailedProject";
-import About from "./pages/About";
-
-
 
 import BookDetails from "./pages/BookDetail/BookDetails";
 import LoadingSpinner from "./components/spinner/LoadingSpinner";
 
 
 
+
 const Library = React.lazy(()=> import("./pages/Library"));
+
 const Projects = React.lazy(()=> import("./pages/Projects"));
+
+const Skills = React.lazy(()=> import("./pages/Skills"));
+
+const About = React.lazy(()=> import("./pages/About"));
 
 
 function App() {
