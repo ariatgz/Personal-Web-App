@@ -12,7 +12,7 @@ function Introduction(props) {
 
             </div>
             <div className='mt-4 intro-text'>
-                <h3>{props.title}</h3>
+                <h3 style={{textAlign: "center"}}>{props.title}</h3>
                 <br/>
                 { props.description && <p id='text-about-me'>{props.description} </p>}
                 <br/>

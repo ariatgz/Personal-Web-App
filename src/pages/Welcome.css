@@ -1,5 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap');
 
-.bg-image{
+
+
+#welcome-name-text {
+    background: 50% 100% / 50% 50% no-repeat radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 10vw;
+    font-family: "Source Sans Pro", sans-serif;
+    animation: reveal 3000ms ease-in-out forwards 200ms,
+    glow 2500ms linear infinite 2500ms;
+}
+
+@keyframes reveal {
+    80%{
+        letter-spacing: 8px;
+    }
+    100% {
+        background-size: 300% 300%;
+    }
+}
+@keyframes glow {
+    40% {
+        text-shadow: 0 0 3px #fff;
+    }
+}
+
+
+
+
+
+
+
+
+.bg-image {
     position: absolute;
     right: 0;
     top: 0;
@@ -10,13 +45,14 @@
 
 }
 
-.introduction{
+.introduction {
     color: white;
     font-size: 10em;
     font-weight: bolder;
     align-self: center;
 }
-.intro-container{
+
+.intro-container {
     height: 100vh;
     display: flex;
 
@@ -27,32 +63,56 @@
 
 }
 
-.desc{
+.desc {
     font-size: 3.5rem;
     color: white;
 }
 
-#react{
+#react {
     color: #61DBFB;
 }
-#react:hover{
+
+#react:hover {
     color: white;
 }
-#android{
+
+#android {
     color: #a4c639;
 }
 
-#android:hover{
+#android:hover {
     color: white;
 }
 
-.skill-for-hover:hover{
+.skill-for-hover:hover {
     color: white;
 }
 
 
-@media screen and (max-width: 768px) {
-    .bg-image{
+
+@media screen and (max-width: 1023px) {
+    #welcome-name-text {
+        background: 50% 100% / 50% 50% no-repeat radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-size: 15vw;
+        font-family: "Source Sans Pro", sans-serif;
+        animation: reveal 3000ms ease-in-out forwards 200ms,
+        glow 2500ms linear infinite 2000ms;
+    }
+
+
+    @keyframes reveal {
+        80%{
+            letter-spacing: 1.8px;
+        }
+        100% {
+            background-size: 300% 300%;
+        }
+    }
+
+    .bg-image {
         position: absolute;
         right: 0;
         top: 0;
@@ -62,17 +122,20 @@
         filter: brightness(0.35);
 
     }
-    .introduction{
+
+    .introduction {
         color: white;
         font-size: 2.5em;
         font-weight: bolder;
         align-self: center;
     }
-    .desc{
+
+    .desc {
         font-size: 1.4rem;
         color: white;
     }
-    .intro-container{
+
+    .intro-container {
         height: 100vh;
         display: flex;
 
@@ -83,40 +146,43 @@
 
 
 }
-.name-anime{
-    animation: 4s name ease-out ;
+
+.name-anime {
+    animation: 4s name ease-out;
     z-index: 9;
 }
+
 @keyframes name {
 
-    0%{
+    0% {
 
-        transform: translateY(-50vh) ;
+        transform: translateY(-50vh);
     }
 
 
-
 }
 
-.description-anime{
+.description-anime {
     animation: 3s descLoading ease-in-out;
 
     height: auto;
     text-align: center;
 
 }
+
 @keyframes descLoading {
 
-    0%{
+    0% {
 
         opacity: 0;
     }
-    100%{
+    100% {
 
         opacity: 1;
     }
 
 }
+
 button {
     position: relative;
     cursor: pointer;
@@ -130,9 +196,11 @@ button {
     font-size: inherit;
     font-family: inherit;
 }
+
 button.about-me {
     width: 12rem;
 }
+
 button.about-me .circle {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     position: relative;
@@ -143,6 +211,7 @@ button.about-me .circle {
     background: #ffffff;
     border-radius: 1.625rem;
 }
+
 button.about-me .circle .icon {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     position: absolute;
@@ -151,6 +220,7 @@ button.about-me .circle .icon {
     margin: auto;
     background: #ffffff;
 }
+
 button.about-me .circle .icon.arrow {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     left: 0.625rem;
@@ -159,6 +229,7 @@ button.about-me .circle .icon.arrow {
     background: none;
 
 }
+
 button.about-me .circle .icon.arrow::before {
     position: absolute;
     content: "";
@@ -170,6 +241,7 @@ button.about-me .circle .icon.arrow::before {
     border-right: 0.125rem solid #000000;
     transform: rotate(45deg);
 }
+
 button.about-me .button-text {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     position: absolute;
@@ -185,13 +257,17 @@ button.about-me .button-text {
     text-align: center;
     text-transform: uppercase;
 }
+
 button:hover .circle {
     width: 100%;
 }
+
 button:hover .circle .icon.arrow {
     background: #000000;
     transform: translate(1rem, 0);
 }
+
 button:hover .button-text {
     color: #000000;
 }
+

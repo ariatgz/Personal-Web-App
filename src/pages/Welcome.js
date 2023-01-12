@@ -11,10 +11,8 @@ export const info={
     image: require('../images/me.jpg'),
     title: "Hello, I'm Arya Taghizadeh.",
     description: "I'm an enthusiastic programmer, a web developer, a React developer, an Android developer, and an ethical hacker.\n" +
-        "                    My passion for computers and programming was born at a young age. Since I was twelve years old,\n" +
-        "                    I have been known as a tech-savvy/geek, but I didn't begin coding until I was sixteen.\n" +
-        "                    One of my major motivators is the idea of creating and\n" +
-        "                    inventing stuff. I was born in Iran, but made in Canada.",
+        "                    My love of computers and programming began when I was very young. I've been considered a tech savvy/geek since I was twelve years old, but I didn't start coding until I was sixteen." +
+        " The idea of creating and inventing stuff is one of my main sources of motivation. I was born in Iran, but made in Canada.",
     ending: "Please go ahead and explore my website and skills!!"
 
 }
@@ -29,9 +27,15 @@ function Welcome() {
             <div id='whole-body'>
             { window.innerWidth > 1023 ? <img alt='space' className='bg-image' src={require('../images/1773005.jpg')}/> : <img  alt='space' className='bg-image' src={require('../images/1268196.jpg')}/>}
             <div className='intro-container'>
-                <div className='name-anime'>
-                    <h1 style={{fontFamily: "'Poppins', sans-serif"}} className='introduction '>Hi, I'm <strong id='my-name'>Arya</strong>. </h1>
+                {/**<div className='name-anime'>
+                    <h1 style={{fontFamily: "'Poppins', sans-serif"}} className='introduction '>Hi, I'm <strong
+                        id='my-name'>Arya</strong>. </h1>
+                </div>**/}
+
+                <div id="welcome-name-text">
+                    Hi, I'm Arya.
                 </div>
+
                 <div className='description-anime'>
                     <p style={{fontFamily: "'Lato', sans-serif"}} className='desc'>I'm a <span id='react'>React</span>, <span  id='android'>Android</span> developer.</p>
                 </div>
