@@ -21,17 +21,17 @@ function Footer() {
                 </a>
             </div>
 
-        <div id='thank' className='my-4'>
+        <div id='thank' className='my-3'>
             <p>Thanks for Visiting my website.</p>
             <p>This is V2 of my website.</p>
-            <h4 className="copyright">Arya Taghizadeh © 2022</h4>
+            <p className="copyright">Arya Taghizadeh © 2022</p>
 
         </div>
 
                 <div >
 
 
-                <img alt='Up arrow' id="up-arrow" onClick={scrollToTop} width="100px" src={require('../images/kisspng-chopsticks-tableware-clip-art-up-arrow-png-transparent-image-5a759b4be01077.3079923215176569079178 (1).png')} />
+                <img alt='Up arrow' id="up-arrow" onClick={scrollToTop}  src={require('../images/kisspng-chopsticks-tableware-clip-art-up-arrow-png-transparent-image-5a759b4be01077.3079923215176569079178 (1).png')} />
                 </div>
 
 

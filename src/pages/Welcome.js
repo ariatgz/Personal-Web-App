@@ -27,10 +27,7 @@ function Welcome() {
             <div id='whole-body'>
             { window.innerWidth > 1023 ? <img alt='space' className='bg-image' src={require('../images/1773005.jpg')}/> : <img  alt='space' className='bg-image' src={require('../images/1268196.jpg')}/>}
             <div className='intro-container'>
-                {/**<div className='name-anime'>
-                    <h1 style={{fontFamily: "'Poppins', sans-serif"}} className='introduction '>Hi, I'm <strong
-                        id='my-name'>Arya</strong>. </h1>
-                </div>**/}
+
 
                 <div id="welcome-name-text">
                     Hi, I'm Arya.
