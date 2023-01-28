@@ -1,7 +1,7 @@
 
 import './App.css';
-import React, {Suspense} from "react";
-import Root from "./components/Root";
+import React, {Fragment, Suspense} from "react";
+
 import { Route, Routes} from "react-router-dom";
 import Welcome from "./pages/Welcome";
 import NoPageFound from "./pages/NoPageFound";
@@ -11,6 +11,8 @@ import DetailedProject from "./pages/DetailedProject";
 import BookDetails from "./pages/BookDetail/BookDetails";
 import LoadingSpinner from "./components/spinner/LoadingSpinner";
 import Projects from "./pages/Projects";
+import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
 
 
 
@@ -29,11 +31,18 @@ function App() {
 
 
   return (
-    <Root>
+      <Fragment>
+          <div style={{width: "100%", display: "block",height: "70px"}}>
+
+          <Navigation class="app__nav" />
+
+          </div>
+    <div >
 
 
 
         <Suspense fallback={<LoadingSpinner />}>
+
         <Routes>
             <Route path='/' element={<Welcome />}/>
             <Route path='/skills' element={<Skills />} />
@@ -46,9 +55,10 @@ function App() {
 
         </Routes>
         </Suspense>
+        <Footer />
 
-
-    </Root>
+    </div>
+      </Fragment>
   );
 }
 

@@ -13,7 +13,7 @@ root.render(
   <HashRouter>
       <Provider store={store}>
           <ScrollToTop />
-    <App />
+          <App />
       </Provider>
   </HashRouter>
 );

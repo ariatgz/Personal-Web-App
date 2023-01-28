@@ -26,7 +26,7 @@ function Projects() {
     return(
         <Fragment>
             { window.innerWidth > 1023 ? <img alt='space' className='bg-image' src={require('../images/dark-code.jpg')}/> : <img  alt='space' className='bg-image' src={require('../images/1268196.jpg')}/>}
-        <div className='layout-grid'>
+        <div className='layout-grid mt-1'>
             <div className='layout-wrapper' >
 
                 {

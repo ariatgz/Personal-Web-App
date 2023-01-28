@@ -6,25 +6,26 @@ import java from  '../images/java-logo-1.png';
 import web from '../images/pngfind.com-web-designing-icon-png-1706361.png'
 
 import React from "react";
+//{
+//         image: hacker,
+//         title: "Ethical Hacking",
+//         description: (<ul >
+//             <li>Writing a simple undetectable backdoor shell</li>
+//             <li>Website penetration testing</li>
+//             <li> Scanning using Nmap, Zenmap, and TCP scans</li>
+//             <li>Performing SQL injection, XSS, and xml injection tests</li>
+//             <li>Performing man In The Middle Attack</li>
+//             <li>Working with Metasploitable framework</li>
+//             <li>Writing a simple Bruteforcer</li>
+//             <li>Writing a simple Keylogger</li>
+//
+//         </ul>),
+//         ending: ""
+//
+//     },
 
 const skills=[
-    {
-        image: hacker,
-        title: "Ethical Hacking",
-        description: (<ul >
-            <li>Writing a simple undetectable backdoor shell</li>
-            <li>Website penetration testing</li>
-            <li> Scanning using Nmap, Zenmap, and TCP scans</li>
-            <li>Performing SQL injection, XSS, and xml injection tests</li>
-            <li>Performing man In The Middle Attack</li>
-            <li>Working with Metasploitable framework</li>
-            <li>Writing a simple Bruteforcer</li>
-            <li>Writing a simple Keylogger</li>
 
-        </ul>),
-        ending: ""
-
-    },
     {
         image: Android,
         title: "Android Development",

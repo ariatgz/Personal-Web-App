@@ -5,7 +5,7 @@ import './Introduction.css'
 function Introduction(props) {
 
     return (
-        <div id='about-me' className='intro-outer-div container mt-5'>
+        <div id='about-me' className='intro-outer-div container mt-1'>
             <div id='profile-pic-setup'>
 
                 <img alt=" " style={props.customStyle} id='profile-pic' src={props.image}/>

@@ -8,7 +8,7 @@ import {Link} from "react-router-dom";
 
 export const info={
 
-    image: require('../images/me.jpg'),
+    image: require('../images/Peter_Griffin.png'),
     title: "Hello, I'm Arya Taghizadeh.",
     description: "I'm an enthusiastic programmer, a web developer, a React developer, an Android developer, and an ethical hacker.\n" +
         "                    My love of computers and programming began when I was very young. I've been considered a tech savvy/geek since I was twelve years old, but I didn't start coding until I was sixteen." +
