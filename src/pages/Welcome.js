@@ -10,7 +10,7 @@ export const info={
 
     image: require('../images/Peter_Griffin.png'),
     title: "Hello, I'm Arya Taghizadeh.",
-    description: "I'm an enthusiastic programmer, a web developer, a React developer, an Android developer, and an ethical hacker.\n" +
+    description: "I'm an enthusiastic programmer, a full-stack developer, an Android developer, and an ethical hacker.\n" +
         "                    My love of computers and programming began when I was very young. I've been considered a tech savvy/geek since I was twelve years old, but I didn't start coding until I was sixteen." +
         " The idea of creating and inventing stuff is one of my main sources of motivation. I was born in Iran, but made in Canada.",
     ending: "Please go ahead and explore my website and skills!!"
@@ -34,7 +34,7 @@ function Welcome() {
                 </div>
 
                 <div className='description-anime'>
-                    <p style={{fontFamily: "'Lato', sans-serif"}} className='desc'>I'm a <span id='react'>React</span>, <span  id='android'>Android</span> developer.</p>
+                    <p style={{fontFamily: "'Lato', sans-serif"}} className='desc'>I'm a <span id='react'>React</span>, <span  id='android'>Android</span>, <span id="node">Node.js</span> developer.</p>
                 </div>
 
 

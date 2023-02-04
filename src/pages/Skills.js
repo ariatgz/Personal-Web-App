@@ -1,9 +1,11 @@
-import hacker from '../images/hacker.png';
+
 import Android from '../images/android-6-512.png'
 import Introduction from "../components/Introduction";
 import python from '../images/python-5-logo-png-transparent.png';
 import java from  '../images/java-logo-1.png';
-import web from '../images/pngfind.com-web-designing-icon-png-1706361.png'
+import web from '../images/pngfind.com-web-designing-icon-png-1706361.png';
+import node from '../images/node.png';
+import react from '../images/react-logo-png-transparent.png';
 
 import React from "react";
 //{
@@ -69,7 +71,7 @@ const skills=[
                 <li>Building GUI using <strong>Swing</strong> library</li>
                 <li>Working with Json library</li>
                 <li>Implementing Google APIs</li>
-                <li>Implementing databases in Java Apps</li>
+                <li>Implementing SQL databases in Java Apps</li>
 
 
 
@@ -84,14 +86,48 @@ const skills=[
         description: (
             <ul>
                 <li>Advanced HTML, CSS, JavaScript</li>
-                <li>React.js (Redux, React Router, and other react libraries)</li>
                 <li>Bootstrap</li>
                 <li>Scrollama.js</li>
-
-                <li>Next.js</li>
                 <li>JQuery</li>
                 <li>JQuery UI</li>
                 <li>d3.js</li>
+
+
+            </ul>
+        ),
+        ending: ""
+
+    },{
+        image: node,
+        title: "Node.js development",
+        description: (
+            <ul>
+                <li>Working with template engines such as Pugs, EJS, and ...</li>
+                <li>Building a complete backend app with authentication</li>
+                <li>Building web apps with MongoDB and mySQL</li>
+                <li>Express.js</li>
+                <li>Building a Restful API</li>
+                <li>Building a GraphQL API</li>
+                <li>Validating data with express-validation</li>
+                <li>Taking advantage of Cookies and sessions</li>
+
+
+            </ul>
+        ),
+        ending: ""
+
+    },{
+        image: react,
+        title: "React.js development",
+        description: (
+            <ul>
+                <li>Taking advantage of React hooks</li>
+                <li>Routing using React-Router</li>
+                <li>Building complex user-side form validation</li>
+                <li>Building custom hooks</li>
+                <li>Implementing Redux in React apps</li>
+                <li>Building Next.js apps</li>
+
 
 
             </ul>

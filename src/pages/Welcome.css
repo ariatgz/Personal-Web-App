@@ -63,6 +63,13 @@
 
 }
 
+#node{
+    color: #3c873a ;
+}
+#node:hover{
+    color: white ;
+}
+
 .desc {
     font-size: 3.5rem;
     color: white;
