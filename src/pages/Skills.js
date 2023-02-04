@@ -32,7 +32,7 @@ const skills=[
         image: Android,
         title: "Android Development",
         description: (
-            <ul >
+            <ul>
                 <li>Advanced Java</li>
                 <li>Advanced XML</li>
                 <li>Retrofit 2 Library</li>
@@ -40,58 +40,6 @@ const skills=[
                 <li>Google APIs</li>
                 <li>Implementing SQLite database</li>
                 <li>and many more Android development tools</li>
-
-            </ul>
-        ),
-        ending: ""
-
-    },{
-        image: python,
-        title: "Python",
-        description: (
-            <ul>
-                <li>Advanced Python programming</li>
-                <li>Building GUI using <strong>Tkinter</strong> library</li>
-                <li>Networking using <strong>Socket</strong> library</li>
-                <li>Building Image processing programs using <strong>CV2</strong></li>
-                <li>Implementing <strong>Tensorflow</strong> in projects</li>
-
-
-            </ul>
-
-        ),
-        ending: ""
-
-    },{
-        image: java,
-        title: "Java",
-        description: (
-            <ul>
-                <li>Advanced Java Programming</li>
-                <li>Building GUI using <strong>Swing</strong> library</li>
-                <li>Working with Json library</li>
-                <li>Implementing Google APIs</li>
-                <li>Implementing SQL databases in Java Apps</li>
-
-
-
-            </ul>
-
-        ),
-        ending: ""
-
-    },{
-        image: web,
-        title: "Web development",
-        description: (
-            <ul>
-                <li>Advanced HTML, CSS, JavaScript</li>
-                <li>Bootstrap</li>
-                <li>Scrollama.js</li>
-                <li>JQuery</li>
-                <li>JQuery UI</li>
-                <li>d3.js</li>
-
 
             </ul>
         ),
@@ -134,7 +82,59 @@ const skills=[
         ),
         ending: ""
 
-    },
+    },{
+        image: python,
+        title: "Python",
+        description: (
+            <ul>
+                <li>Advanced Python programming</li>
+                <li>Building GUI using <strong>Tkinter</strong> library</li>
+                <li>Networking using <strong>Socket</strong> library</li>
+                <li>Building Image processing programs using <strong>CV2</strong></li>
+                <li>Implementing <strong>Tensorflow</strong> in projects</li>
+
+
+            </ul>
+
+        ),
+        ending: ""
+
+    },{
+    image: java,
+        title: "Java",
+        description: (
+        <ul>
+            <li>Advanced Java Programming</li>
+            <li>Building GUI using <strong>Swing</strong> library</li>
+            <li>Working with Json library</li>
+            <li>Implementing Google APIs</li>
+            <li>Implementing SQL databases in Java Apps</li>
+
+
+
+        </ul>
+
+    ),
+        ending: ""
+
+},{
+        image: web,
+        title: "Web development",
+        description: (
+            <ul>
+                <li>Advanced HTML, CSS, JavaScript</li>
+                <li>Bootstrap</li>
+                <li>Scrollama.js</li>
+                <li>JQuery</li>
+                <li>JQuery UI</li>
+                <li>d3.js</li>
+
+
+            </ul>
+        ),
+        ending: ""
+
+    }
 
 
 ]

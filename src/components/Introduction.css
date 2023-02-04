@@ -17,6 +17,8 @@
     margin: 10px 0;
 }
 
+
+
 .intro-text{
         width: 55%;line-height: 35px;
     text-wrap: normal;
@@ -64,7 +66,8 @@ li{
     }
 
     .intro-text{
-        width: 100%;line-height: 35px;
+        width: 100%;
+        line-height: 35px;
         text-wrap: normal;
 
     }

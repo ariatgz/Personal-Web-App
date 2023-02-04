@@ -97,6 +97,7 @@
 
 
 
+
 @media screen and (max-width: 1023px) {
     #welcome-name-text {
         background: 50% 100% / 50% 50% no-repeat radial-gradient(ellipse at bottom, #fff, transparent, transparent);
@@ -108,6 +109,8 @@
         animation: reveal 3000ms ease-in-out forwards 200ms,
         glow 2500ms linear infinite 2000ms;
     }
+
+
 
 
     @keyframes reveal {
@@ -132,13 +135,13 @@
 
     .introduction {
         color: white;
-        font-size: 2.5em;
+        font-size: 2.2em;
         font-weight: bolder;
         align-self: center;
     }
 
     .desc {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         color: white;
     }
 

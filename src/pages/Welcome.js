@@ -1,9 +1,10 @@
 import './Welcome.css'
 import {Fragment,} from "react";
-import Introduction from "../components/Introduction";
 import React from "react";
 import {Link} from "react-router-dom";
 
+import SkillLogos from "../components/SkillLogos";
+import Introduction from "../components/Introduction";
 
 
 export const info={
@@ -54,7 +55,11 @@ function Welcome() {
 
 
             </div>
-            <Introduction customStyle={{borderRadius: "70px",width: "55%",height: "auto"}} image={info.image} title={info.title} description={info.description} ending={info.ending} />
+
+                <SkillLogos />
+
+                <Introduction  customStyle={{borderRadius: "70px",width: "55%",height: "auto"}} image={info.image} title={info.title} description={info.description} ending={info.ending} />
+
 
 
 

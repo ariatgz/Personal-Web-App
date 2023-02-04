@@ -1,0 +1,30 @@
+.skills_display {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    padding: 2rem;
+    background: black;
+    margin-top: 5%;
+    margin-bottom: 6%;
+
+
+}
+
+.skill_logo{
+    width: 10%;
+    aspect-ratio: auto;
+}
+
+@media screen and (max-width: 1023px) {
+
+    .skills_display {
+        display: none;
+
+
+    }
+
+
+
+}
